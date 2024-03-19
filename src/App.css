@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  font-family: "Angkor", serif;
+  
+  background-image: url('bgimg.jpg');
+  background-size: cover;
+  font-size: larger;
+  color:white ;
+}
+
+*{
+  font-family: "Angkor", serif;
+  
+}
+
+
+
+.navbar {
+  display: flex;
+ 
+ 
+  padding: 10px;
+  color: white;
+}
+
+.dice-home img{
+  margin: 78px 61px 0px 123px;
+  width: 25%;
+  height: 25%; 
+}
+
+.logo img {
+  margin-top: 10px;
+  margin-right: 19px;
+  width: 51px;
+  height: 51px; 
+}
+
+.game-name {
+  font-size: 45px;
+  font-size: bold;
+}
+
+.random-dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.dice {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+ 
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.shuffling {
+  transform:scale(120%);
+}
+
+.dice img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.selection-dice {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: black;
+ 
+  cursor: pointer;
+}
+
+.selection-dice img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.selection-dice:disabled {
+  opacity: 0.5;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+button {
+  
+  border: none;
+ 
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.play{
+ height: 50px;
+ width: 150px;
+ font-size: 15px;
+ border-radius: 7px;
+  background-color: green;
+  color: white;
+}
+
+.victory{
+  font-size: 17px;
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 17px;
+}
+
+h2{
+  color: beige;
+}
